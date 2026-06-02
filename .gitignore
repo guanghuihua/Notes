@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local editor and assistant state
+.vscode/
+.claude/
+.codex/
+.agents/
+
+# Obsidian local workspace state
+TopologyVault/.obsidian/workspace*.json
+TopologyVault/.obsidian/cache/
+TopologyVault/.trash/
+
+# OS files
+.DS_Store
+Thumbs.db
