@@ -16,6 +16,7 @@ ATVault/.trash/
 TopologyVault/.obsidian/workspace*.json
 TopologyVault/.obsidian/cache/
 TopologyVault/.trash/
+*.json
 
 # OS files
 .DS_Store
