@@ -10,6 +10,9 @@ __pycache__/
 .agents/
 
 # Obsidian local workspace state
+ATVault/.obsidian/workspace*.json
+ATVault/.obsidian/cache/
+ATVault/.trash/
 TopologyVault/.obsidian/workspace*.json
 TopologyVault/.obsidian/cache/
 TopologyVault/.trash/
