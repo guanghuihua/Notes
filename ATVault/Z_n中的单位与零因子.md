@@ -42,7 +42,7 @@ $$
    \quad \text{or} \quad
    c = 0.
    $$
-
+·
 ### 直觉
 
 这个定理说明：
@@ -69,7 +69,27 @@ $$
 2^{-1} = 3.
 $$
 
-## Theorem 2.9
+## 单位和逆元
+
+在 $\mathbb Z_n$ 中，如果方程
+
+$$
+ax = 1
+$$
+
+有解，那么元素 $a$ 称为一个单位。
+
+换句话说，如果存在某个 $b \in \mathbb Z_n$，使得
+
+$$
+ab = 1,
+$$
+
+那么 $a$ 是单位。此时称 $b$ 是 $a$ 的逆元。
+
+注意，$ab = 1$ 同时也说明 $b$ 是单位，并且 $a$ 是 $b$ 的逆元。
+
+## Theorem 2.10
 
 设 $a,n$ 是整数，且 $n > 1$。那么：
 
@@ -79,7 +99,7 @@ $$
 \gcd(a,n) = 1.
 $$
 
-这里“单位”指的是有乘法逆元的元素。也就是说，$[a]$ 是单位，意思是存在某个 $[x] \in \mathbb Z_n$，使得
+也就是说，$[a]$ 是单位，意思是存在某个 $[x] \in \mathbb Z_n$，使得
 
 $$
 [a][x] = [1].
@@ -190,3 +210,7 @@ $$
 
 - [[同余类]]
 - [[Prime Numbers and Unique Factorization]]
+
+## Reference
+
+Hungerford, *Abstract Algebra: An Introduction*, pp. 39-41.
